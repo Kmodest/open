@@ -258,6 +258,8 @@
         nameEl.textContent = decodeURIComponent(eventName);
     } else if (eventId) {
         nameEl.textContent = "You've been invited to a Pull Up!";
+    } else if (checkinId) {
+        nameEl.textContent = "Check in to the Pull Up!";
     }
 
     // Try to open the app
